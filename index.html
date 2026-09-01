@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEX Interface Concept</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <!-- Replace 'my-logo.png' with your actual image file path -->
+            <img src="my-logo.png" alt="Logo" class="logo-img">
+        </div>
+        <div class="nav-links">
+            <a href="#">Trade</a>
+            <a href="#">Explore</a>
+            <a href="#">Pool</a>
+        </div>
+        <button class="btn-primary">Get Started</button>
+    </nav>
+
+    <!-- Main Swap Container -->
+    <div class="main-container">
+        <h1 class="title">Swap anytime, anywhere.</h1>
+        
+        <div class="swap-widget">
+            <!-- Sell Input -->
+            <div class="input-section">
+                <div class="input-header">
+                    <span>Sell</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="0" class="amount-input">
+                    <button class="token-selector">ETH ▾</button>
+                </div>
+                <div class="input-footer">$0</div>
+            </div>
+
+            <!-- Swap Arrow -->
+            <div class="swap-arrow-container">
+                <button class="arrow-btn">↓</button>
+            </div>
+
+            <!-- Buy Input -->
+            <div class="input-section">
+                <div class="input-header">
+                    <span>Buy</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" placeholder="0" class="amount-input">
+                    <button class="token-selector pink-btn">Select token ▾</button>
+                </div>
+                <div class="input-footer">$0</div>
+            </div>
+
+            <!-- Action Button -->
+            <button class="btn-primary full-width">Get started</button>
+            <p class="footer-text">Buy and sell crypto with zero app fees on 21+ networks</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
